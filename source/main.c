@@ -134,7 +134,7 @@ int main()
 				//按任意鍵回到主選單(除了adsw)
 				char end1;
 				end1 = _getch();
-				if (end1!=0&&end1!=65 &&end1 != 68&& end1 != 83 && end1 != 87)
+				if (end1!=0)
 				{
 					break;
 				}
@@ -148,7 +148,7 @@ int main()
 			
 			
 
-		//普通 2	
+			
 		case '2':
 			printf("是時候展現真正的技術了!\n小提示：走越少步能獲得越多*喔!\n\n");
 			printf("\n開始挑戰：Enter     回到主選單：Esc\n");
@@ -267,14 +267,9 @@ int main()
 
 				char end2;
 				end2 = _getch();
-				if (end2 == 27)
+				if (end2 != 0)
 				{
-					system("cls");
 					break;
-				}
-				else
-				{
-					Sleep(30000);
 				}
 			}
 			else if (back2 == 27)
@@ -381,7 +376,7 @@ int main()
 							}
 							else if ((x == 5 && y == 18)||(x==17&&y==11))
 							{
-								//踩到傳送門 a[5][18]，飛到出口前
+								//踩到傳送門 ，飛到出口前
 								a[x][y] = ' ';
 								a[17][18] = 'o';
 								x = 17;
@@ -389,7 +384,7 @@ int main()
 							}
 							else if (x == 3 && y == 12)
 							{
-								//踩到傳送門 a[5][18]，飛到出口前
+								//踩到傳送門 
 								a[x][y] = ' ';
 								a[1][16] = 'o';
 								x = 1;

@@ -5,5 +5,5 @@ c:\users\smghs\onedrive\桌面\final_project\source\main.c(25): warning C4473: '
   c:\users\smghs\onedrive\桌面\final_project\source\main.c(25): note: 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
   c:\users\smghs\onedrive\桌面\final_project\source\main.c(25): note: 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
   c:\users\smghs\onedrive\桌面\final_project\source\main.c(25): note: 此引數可用為緩衝區大小
-c:\users\smghs\onedrive\桌面\final_project\source\main.c(924): warning C4244: '=': 將 'time_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\smghs\onedrive\桌面\final_project\source\main.c(920): warning C4244: '=': 將 'time_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
   maze.c.vcxproj -> C:\Users\smghs\OneDrive\桌面\final_project\maze.c\maze.c\..\..\temp\debug\maze.c.exe
